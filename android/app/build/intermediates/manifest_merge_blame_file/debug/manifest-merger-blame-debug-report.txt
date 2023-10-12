@@ -1,0 +1,146 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.reactexp2"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/Users/vishalsharma/AndroidStudioProjects/ReactExp2/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/vishalsharma/AndroidStudioProjects/ReactExp2/android/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/vishalsharma/AndroidStudioProjects/ReactExp2/android/app/src/main/AndroidManifest.xml:5:5-26:19
+12        android:allowBackup="true"
+12-->/Users/vishalsharma/AndroidStudioProjects/ReactExp2/android/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.8.0] /Users/vishalsharma/.gradle/caches/transforms-3/5b74e507945b87bcb2205b58eb9a98d0/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->/Users/vishalsharma/AndroidStudioProjects/ReactExp2/android/app/src/main/AndroidManifest.xml:7:9-65
+15        android:debuggable="true"
+16        android:extractNativeLibs="false"
+17        android:fullBackupContent="@xml/backup_rules"
+17-->/Users/vishalsharma/AndroidStudioProjects/ReactExp2/android/app/src/main/AndroidManifest.xml:8:9-54
+18        android:icon="@mipmap/ic_launcher"
+18-->/Users/vishalsharma/AndroidStudioProjects/ReactExp2/android/app/src/main/AndroidManifest.xml:9:9-43
+19        android:label="@string/app_name"
+19-->/Users/vishalsharma/AndroidStudioProjects/ReactExp2/android/app/src/main/AndroidManifest.xml:10:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->/Users/vishalsharma/AndroidStudioProjects/ReactExp2/android/app/src/main/AndroidManifest.xml:11:9-54
+21        android:supportsRtl="true"
+21-->/Users/vishalsharma/AndroidStudioProjects/ReactExp2/android/app/src/main/AndroidManifest.xml:12:9-35
+22        android:testOnly="true"
+23        android:theme="@style/Theme.ReactExp2" >
+23-->/Users/vishalsharma/AndroidStudioProjects/ReactExp2/android/app/src/main/AndroidManifest.xml:13:9-47
+24        <activity
+24-->/Users/vishalsharma/AndroidStudioProjects/ReactExp2/android/app/src/main/AndroidManifest.xml:15:9-25:20
+25            android:name="com.example.reactexp2.MainActivity"
+25-->/Users/vishalsharma/AndroidStudioProjects/ReactExp2/android/app/src/main/AndroidManifest.xml:16:13-41
+26            android:exported="true"
+26-->/Users/vishalsharma/AndroidStudioProjects/ReactExp2/android/app/src/main/AndroidManifest.xml:17:13-36
+27            android:label="@string/app_name"
+27-->/Users/vishalsharma/AndroidStudioProjects/ReactExp2/android/app/src/main/AndroidManifest.xml:18:13-45
+28            android:theme="@style/Theme.ReactExp2" >
+28-->/Users/vishalsharma/AndroidStudioProjects/ReactExp2/android/app/src/main/AndroidManifest.xml:19:13-51
+29            <intent-filter>
+29-->/Users/vishalsharma/AndroidStudioProjects/ReactExp2/android/app/src/main/AndroidManifest.xml:20:13-24:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->/Users/vishalsharma/AndroidStudioProjects/ReactExp2/android/app/src/main/AndroidManifest.xml:21:17-69
+30-->/Users/vishalsharma/AndroidStudioProjects/ReactExp2/android/app/src/main/AndroidManifest.xml:21:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/Users/vishalsharma/AndroidStudioProjects/ReactExp2/android/app/src/main/AndroidManifest.xml:23:17-77
+32-->/Users/vishalsharma/AndroidStudioProjects/ReactExp2/android/app/src/main/AndroidManifest.xml:23:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->[:modue1] /Users/vishalsharma/AndroidStudioProjects/ReactExp2/android/modue1/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-20:20
+36            android:name="com.example.modue1.ModuleMainActivity"
+36-->[:modue1] /Users/vishalsharma/AndroidStudioProjects/ReactExp2/android/modue1/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-65
+37            android:exported="true"
+37-->[:modue1] /Users/vishalsharma/AndroidStudioProjects/ReactExp2/android/modue1/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-36
+38            android:label="@string/app_name"
+38-->[:modue1] /Users/vishalsharma/AndroidStudioProjects/ReactExp2/android/modue1/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-45
+39            android:theme="@style/Theme.ReactExp1" >
+39-->[:modue1] /Users/vishalsharma/AndroidStudioProjects/ReactExp2/android/modue1/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-51
+40            <intent-filter>
+40-->/Users/vishalsharma/AndroidStudioProjects/ReactExp2/android/app/src/main/AndroidManifest.xml:20:13-24:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->/Users/vishalsharma/AndroidStudioProjects/ReactExp2/android/app/src/main/AndroidManifest.xml:21:17-69
+41-->/Users/vishalsharma/AndroidStudioProjects/ReactExp2/android/app/src/main/AndroidManifest.xml:21:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->/Users/vishalsharma/AndroidStudioProjects/ReactExp2/android/app/src/main/AndroidManifest.xml:23:17-77
+43-->/Users/vishalsharma/AndroidStudioProjects/ReactExp2/android/app/src/main/AndroidManifest.xml:23:27-74
+44            </intent-filter>
+45        </activity>
+46        <activity
+46-->[androidx.compose.ui:ui-tooling:1.3.2] /Users/vishalsharma/.gradle/caches/transforms-3/6263ba05c4f223c821a07ae05078058d/transformed/ui-tooling-1.3.2/AndroidManifest.xml:23:9-25:39
+47            android:name="androidx.compose.ui.tooling.PreviewActivity"
+47-->[androidx.compose.ui:ui-tooling:1.3.2] /Users/vishalsharma/.gradle/caches/transforms-3/6263ba05c4f223c821a07ae05078058d/transformed/ui-tooling-1.3.2/AndroidManifest.xml:24:13-71
+48            android:exported="true" />
+48-->[androidx.compose.ui:ui-tooling:1.3.2] /Users/vishalsharma/.gradle/caches/transforms-3/6263ba05c4f223c821a07ae05078058d/transformed/ui-tooling-1.3.2/AndroidManifest.xml:25:13-36
+49        <activity
+49-->[androidx.compose.ui:ui-test-manifest:1.3.2] /Users/vishalsharma/.gradle/caches/transforms-3/ddc19b24c2f3b971c4824c37f85a5c25/transformed/ui-test-manifest-1.3.2/AndroidManifest.xml:23:9-25:39
+50            android:name="androidx.activity.ComponentActivity"
+50-->[androidx.compose.ui:ui-test-manifest:1.3.2] /Users/vishalsharma/.gradle/caches/transforms-3/ddc19b24c2f3b971c4824c37f85a5c25/transformed/ui-test-manifest-1.3.2/AndroidManifest.xml:24:13-63
+51            android:exported="true" />
+51-->[androidx.compose.ui:ui-test-manifest:1.3.2] /Users/vishalsharma/.gradle/caches/transforms-3/ddc19b24c2f3b971c4824c37f85a5c25/transformed/ui-test-manifest-1.3.2/AndroidManifest.xml:25:13-36
+52
+53        <provider
+53-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vishalsharma/.gradle/caches/transforms-3/1e7c3336c0609808d4ccbd21dee36bcc/transformed/profileinstaller-1.2.0/AndroidManifest.xml:25:9-33:20
+54            android:name="androidx.startup.InitializationProvider"
+54-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vishalsharma/.gradle/caches/transforms-3/1e7c3336c0609808d4ccbd21dee36bcc/transformed/profileinstaller-1.2.0/AndroidManifest.xml:26:13-67
+55            android:authorities="com.example.reactexp2.androidx-startup"
+55-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vishalsharma/.gradle/caches/transforms-3/1e7c3336c0609808d4ccbd21dee36bcc/transformed/profileinstaller-1.2.0/AndroidManifest.xml:27:13-68
+56            android:exported="false" >
+56-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vishalsharma/.gradle/caches/transforms-3/1e7c3336c0609808d4ccbd21dee36bcc/transformed/profileinstaller-1.2.0/AndroidManifest.xml:28:13-37
+57            <meta-data
+57-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vishalsharma/.gradle/caches/transforms-3/1e7c3336c0609808d4ccbd21dee36bcc/transformed/profileinstaller-1.2.0/AndroidManifest.xml:30:13-32:52
+58                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+58-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vishalsharma/.gradle/caches/transforms-3/1e7c3336c0609808d4ccbd21dee36bcc/transformed/profileinstaller-1.2.0/AndroidManifest.xml:31:17-85
+59                android:value="androidx.startup" />
+59-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vishalsharma/.gradle/caches/transforms-3/1e7c3336c0609808d4ccbd21dee36bcc/transformed/profileinstaller-1.2.0/AndroidManifest.xml:32:17-49
+60            <meta-data
+60-->[androidx.emoji2:emoji2:1.0.0] /Users/vishalsharma/.gradle/caches/transforms-3/fb1e56c1c3bdc5bbc95f9892606c14e0/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+61                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+61-->[androidx.emoji2:emoji2:1.0.0] /Users/vishalsharma/.gradle/caches/transforms-3/fb1e56c1c3bdc5bbc95f9892606c14e0/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+62                android:value="androidx.startup" />
+62-->[androidx.emoji2:emoji2:1.0.0] /Users/vishalsharma/.gradle/caches/transforms-3/fb1e56c1c3bdc5bbc95f9892606c14e0/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+63            <meta-data
+63-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/vishalsharma/.gradle/caches/transforms-3/b37d179a050c9a38be6cf153317b22ef/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+64                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+64-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/vishalsharma/.gradle/caches/transforms-3/b37d179a050c9a38be6cf153317b22ef/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+65                android:value="androidx.startup" />
+65-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/vishalsharma/.gradle/caches/transforms-3/b37d179a050c9a38be6cf153317b22ef/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+66        </provider>
+67
+68        <receiver
+68-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vishalsharma/.gradle/caches/transforms-3/1e7c3336c0609808d4ccbd21dee36bcc/transformed/profileinstaller-1.2.0/AndroidManifest.xml:35:9-47:20
+69            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+69-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vishalsharma/.gradle/caches/transforms-3/1e7c3336c0609808d4ccbd21dee36bcc/transformed/profileinstaller-1.2.0/AndroidManifest.xml:36:13-76
+70            android:directBootAware="false"
+70-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vishalsharma/.gradle/caches/transforms-3/1e7c3336c0609808d4ccbd21dee36bcc/transformed/profileinstaller-1.2.0/AndroidManifest.xml:37:13-44
+71            android:enabled="true"
+71-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vishalsharma/.gradle/caches/transforms-3/1e7c3336c0609808d4ccbd21dee36bcc/transformed/profileinstaller-1.2.0/AndroidManifest.xml:38:13-35
+72            android:exported="true"
+72-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vishalsharma/.gradle/caches/transforms-3/1e7c3336c0609808d4ccbd21dee36bcc/transformed/profileinstaller-1.2.0/AndroidManifest.xml:39:13-36
+73            android:permission="android.permission.DUMP" >
+73-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vishalsharma/.gradle/caches/transforms-3/1e7c3336c0609808d4ccbd21dee36bcc/transformed/profileinstaller-1.2.0/AndroidManifest.xml:40:13-57
+74            <intent-filter>
+74-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vishalsharma/.gradle/caches/transforms-3/1e7c3336c0609808d4ccbd21dee36bcc/transformed/profileinstaller-1.2.0/AndroidManifest.xml:41:13-43:29
+75                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+75-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vishalsharma/.gradle/caches/transforms-3/1e7c3336c0609808d4ccbd21dee36bcc/transformed/profileinstaller-1.2.0/AndroidManifest.xml:42:17-91
+75-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vishalsharma/.gradle/caches/transforms-3/1e7c3336c0609808d4ccbd21dee36bcc/transformed/profileinstaller-1.2.0/AndroidManifest.xml:42:25-88
+76            </intent-filter>
+77            <intent-filter>
+77-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vishalsharma/.gradle/caches/transforms-3/1e7c3336c0609808d4ccbd21dee36bcc/transformed/profileinstaller-1.2.0/AndroidManifest.xml:44:13-46:29
+78                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+78-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vishalsharma/.gradle/caches/transforms-3/1e7c3336c0609808d4ccbd21dee36bcc/transformed/profileinstaller-1.2.0/AndroidManifest.xml:45:17-85
+78-->[androidx.profileinstaller:profileinstaller:1.2.0] /Users/vishalsharma/.gradle/caches/transforms-3/1e7c3336c0609808d4ccbd21dee36bcc/transformed/profileinstaller-1.2.0/AndroidManifest.xml:45:25-82
+79            </intent-filter>
+80        </receiver>
+81    </application>
+82
+83</manifest>
